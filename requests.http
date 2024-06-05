@@ -1,0 +1,194 @@
+### 
+POST http://localhost:3000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Jaz",
+    "age":47,
+    "email":"jaz@x.com"
+}
+
+###
+GET http://localhost:3000/api/users HTTP/1.1
+
+###
+GET http://localhost:3000/api/users/6660dd9509d2a281e02541c3 HTTP/1.1
+
+### 
+PUT http://localhost:3000/api/users/6660dd9509d2a281e02541c3 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Jazmin",
+    "age":47,
+    "email":"jazmin@gmail.com"
+}
+
+###
+DELETE http://localhost:3000/api/users/6660dd9509d2a281e02541c1 HTTP/1.1
+
+###
+POST http://localhost:3000/api/address HTTP/1.1
+Content-Type: application/json
+
+{
+    "building": "8969",
+    "coord": [-73.8803827, 40.7643124],
+    "street": "Tomas Guido",
+    "zipcode": "78895",
+    "restaurantId":"6660dd9509d2a281e02541a3"    
+}
+
+###
+GET http://localhost:3000/api/address HTTP/1.1
+
+###
+GET http://localhost:3000/api/address/6660dd9509d2a281e02541a2 HTTP/1.1
+
+### 
+PUT http://localhost:3000/api/address/6660dd9509d2a281e02541a2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "restaurant_id":"40356151",
+    "name":"El Viejo Nacho trattoria",
+    "contact": {"phone":"386-555-0189",
+                "email": "SunBakeryTrattoria@example.org",
+                "location":[-74.0056649,40.7452371]},
+    "starts":4,
+    "categories":["Pizza","Pasta","Sandwiches"]
+}
+
+###
+DELETE http://localhost:3000/api/address/66593411a234505f7e78bc6a HTTP/1.1
+
+
+###
+POST http://localhost:3000/api/restaurants HTTP/1.1
+Content-Type: application/json
+
+{
+    "restaurant_id":"40354655",
+    "name":"Verde Bistro",
+    "contact": {"phone":"386-555-0189",
+                "email": "info@verdebistro.org",
+                "location":[-74.0056649,40.7452371]},
+    "starts":4,
+    "categories":["Pizza","Pasta","Italian","Sandwiches", "Veggie"]
+}
+
+###
+GET http://localhost:3000/api/restaurants HTTP/1.1
+
+###
+GET http://localhost:3000/api/restaurants/6660dd9509d2a281e0254198 HTTP/1.1
+
+### 
+PUT http://localhost:3000/api/restaurants/6660dd9509d2a281e0254199 HTTP/1.1
+Content-Type: application/json
+
+{
+    "restaurant_id":"40356151",
+    "name":"El Viejo Nacho trattoria",
+    "contact": {"phone":"386-555-0189",
+                "email": "SunBakeryTrattoria@example.org",
+                "location":[-74.0056649,40.7452371]},
+    "starts":4,
+    "categories":["Pizza","Pasta","Sandwiches"]
+}
+
+###
+DELETE http://localhost:3000/api/comments/66593411a234505f7e78bc6a HTTP/1.1
+
+
+###
+POST http://localhost:3000/api/comments HTTP/1.1
+Content-Type: application/json
+
+{
+    "date": "2024-06-02T00:35:39.000Z",
+    "comment": "comment nuevo para el Viejo Nacho Tratoria",
+    "restaurantId":"6660dd9509d2a281e025419c"
+}
+
+###
+POST http://localhost:3000/api/comments HTTP/1.1
+Content-Type: application/json
+
+{
+    "comment": "este otro coment con Date.now de un resto",
+    "restaurantId":"6660dd9509d2a281e0254198"
+}
+
+###
+GET http://localhost:3000/api/comments HTTP/1.1
+
+###
+GET http://localhost:3000/api/comments/665fb4bd168c7aff73262983 HTTP/1.1
+
+### 
+PUT http://localhost:3000/api/comments/6660dd9509d2a281e0254199 HTTP/1.1
+Content-Type: application/json
+
+{
+    "date": "2024-04-20T00:35:40.000Z",
+    "comment": "genial para desayunar!!"
+}
+
+###
+PUT http://localhost:3000/api/comments/6660dd9509d2a281e025419b HTTP/1.1
+Content-Type: application/json
+
+{
+    "comment": "apto veganos y celiacos"
+}
+
+###
+DELETE http://localhost:3000/api/comments/66603ef598a2bcb8f6645f44 HTTP/1.1
+
+###
+POST http://localhost:3000/api/grades HTTP/1.1
+Content-Type: application/json
+
+{
+    "date": "2024-06-02T00:35:39.000Z",
+    "score": 3,
+    "restaurantId":"6660dd9509d2a281e0254199"
+}
+
+###
+POST http://localhost:3000/api/grades HTTP/1.1
+Content-Type: application/json
+
+{
+    "score": 5,
+    "restaurantId":"6660df4a6762c784f305f7a8"
+}
+
+###
+GET http://localhost:3000/api/grades HTTP/1.1
+
+###
+GET http://localhost:3000/api/grades/666083d888e3ec82f3c58952 HTTP/1.1
+
+### 
+PUT http://localhost:3000/api/grades/66606c481e645e692e73fef6 HTTP/1.1
+Content-Type: application/json
+
+{
+    "date": "2024-04-20T00:35:40.000Z",
+    "score": 4
+}
+
+###
+PUT http://localhost:3000/api/grades/66606d33b9c19f29f5abcbba HTTP/1.1
+Content-Type: application/json
+
+{
+    "score": 2
+}
+
+###
+DELETE http://localhost:3000/api/grades/66603ef598a2bcb8f6645f44 HTTP/1.1
+
+   

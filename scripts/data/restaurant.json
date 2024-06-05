@@ -1,0 +1,116 @@
+[
+    {
+      "restaurant_id": "1",
+      "name": "Verde Bistro Resto",
+      "contact": {
+        "phone": "123-456-7890",
+        "email": "contact@verdebistro.com",
+        "location": [40.7128, -74.0060]
+      },
+      "stars": 4,
+      "categories": ["Italian", "Pizza"],
+      "address": [],
+      "grades": [],
+      "comments": []
+    },
+    {
+      "restaurant_id": "2",
+      "name": "Restaurant Los Abejos",
+      "contact": {
+        "phone": "987-654-3210",
+        "email": "contact@losabejos.com",
+        "location": [34.0522, -118.2437]
+      },
+      "stars": 5,
+      "categories": ["Mexican", "Tacos"],
+      "address": [],
+      "grades": [],
+      "comments": []
+    },
+    {
+        "restaurant_id": "3",
+        "name": "Que rico cabron",
+        "contact": {
+          "phone": "123-456-7890",
+          "email": "contact@cabron.com",
+          "location": [48.7128, -77.0060]
+        },
+        "stars": 4,
+        "categories": ["Italian", "Pizza"],
+        "address": [],
+        "grades": [],
+        "comments": []
+      },
+      {
+        "restaurant_id": "4",
+        "name": "Restaurant Amigos",
+        "contact": {
+          "phone": "987-654-3210",
+          "email": "contact@amigos.com",
+          "location": [66.0522, -89.2437]
+        },
+        "stars": 5,
+        "categories": ["Mexican", "Tacos", "Veggie", "Pizza"],
+        "address": [],
+        "grades": [],
+        "comments": []
+      },
+      {
+        "restaurant_id": "5",
+        "name": "Trattoria",
+        "contact": {
+          "phone": "123-456-7890",
+          "email": "contact@trattoria.com",
+          "location": [43.7128, -64.0060]
+        },
+        "stars": 4,
+        "categories": ["Italian", "Pizza"],
+        "address": [],
+        "grades": [],
+        "comments": []
+      },
+      {
+        "restaurant_id": "6",
+        "name": "Restaurant Amelia",
+        "contact": {
+          "phone": "987-654-3210",
+          "email": "contact@amelia.com",
+          "location": [87.0522, -118.2437]
+        },
+        "stars": 5,
+        "categories": ["Bolivian", "Veggie", "Resto"],
+        "address": [],
+        "grades": [],
+        "comments": []
+      },
+      {
+        "restaurant_id": "7",
+        "name": "La donna imaculata",
+        "contact": {
+          "phone": "123-456-7890",
+          "email": "contact@donna.com",
+          "location": [45.7128, -44.0060]
+        },
+        "stars": 4,
+        "categories": ["Italian", "Pizza", "Veggie", "American"],
+        "address": [],
+        "grades": [],
+        "comments": []
+      },
+      {
+        "restaurant_id": "8",
+        "name": "El Estribo",
+        "contact": {
+          "phone": "987-654-3210",
+          "email": "contact@elestribo.com",
+          "location": [348.695, -11.892537]
+        },
+        "stars": 5,
+        "categories": ["Coffee", "Veggie", "Resto"],
+        "address": [],
+        "grades": [],
+        "comments": []
+      }
+    
+
+  ]

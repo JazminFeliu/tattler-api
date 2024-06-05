@@ -1,0 +1,42 @@
+[
+    {
+      "date": "2023-06-01T00:00:00Z",
+      "comment": "Volveremos!",
+      "restaurant": "8"
+    },
+    {
+      "date": "2023-06-02T00:00:00Z",
+      "comment": "Excellent service!",
+      "restaurant": "7"
+    },
+    {
+        "date": "2023-06-01T00:00:00Z",
+        "comment": "Great food!",
+        "restaurant": "6660dd9509d2a281e025419b"
+      },
+      {
+        "date": "2023-06-02T00:00:00Z",
+        "comment": "la opcion veggie desastre!",
+        "restaurant": "6660dd9509d2a281e025419c"
+      },
+      {
+        "date": "2023-06-01T00:00:00Z",
+        "comment": "muy rico todo!",
+        "restaurant": "6660dd9509d2a281e025419d"
+      },
+      {
+        "date": "2023-06-02T00:00:00Z",
+        "comment": "atencion especial, recomendado!",
+        "restaurant": "3"
+      },
+      {
+        "date": "2023-06-01T00:00:00Z",
+        "comment": "muy bueno!",
+        "restaurant": "1"
+      },
+      {
+        "date": "2023-06-02T00:00:00Z",
+        "comment": "nada mal",
+        "restaurant": "5"
+      }
+  ]

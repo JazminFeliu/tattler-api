@@ -1,0 +1,58 @@
+[
+    {
+      "building": "1007",
+      "coord": [40.7128, -74.0060],
+      "street": "5th Avenue",
+      "zipcode": "10001",
+      "restaurant": "8"
+    },
+    {
+      "building": "1010",
+      "coord": [34.0522, -118.2437],
+      "street": "Sunset Blvd",
+      "zipcode": "90028",
+      "restaurant": "7"
+    },
+    {
+        "building": "1037",
+        "coord": [40.48528, -74.0060],
+        "street": "Rodeños",
+        "zipcode": "1008",
+        "restaurant": "6"
+      },
+      {
+        "building": "1780",
+        "coord": [44.0522, -34.2437],
+        "street": "Avenida Italia",
+        "zipcode": "98562",
+        "restaurant": "5"
+      },
+      {
+        "building": "3407",
+        "coord": [50.7128, -34.0060],
+        "street": "Los patos",
+        "zipcode": "1000",
+        "restaurant": "4"
+      },
+      {
+        "building": "34670",
+        "coord": [56.0522, -98.2437],
+        "street": "Negros aros",
+        "zipcode": "985472",
+        "restaurant": "3"
+      },
+      {
+        "building": "69854",
+        "coord": [90.7128, -64.0060],
+        "street": "Las camelias",
+        "zipcode": "9968",
+        "restaurant": "1"
+      },
+      {
+        "building": "25843",
+        "coord": [37.0522, -93.2437],
+        "street": "Av. gepeto",
+        "zipcode": "36498",
+        "restaurant": "2"
+      }
+  ]
